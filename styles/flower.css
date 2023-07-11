@@ -127,3 +127,35 @@ height: 88px;
 .customer-desc{
     margin-top: 10px;
 }
+.hot-deal{
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-section{
+    display: flex;
+    justify-content: space-between;
+}
+.deal-title{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+}
+.deal-desc{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+.deal-section{
+    text-align: center;
+    justify-content: center;
+    margin: 301px 395px;
+}
+.deal-image{
+    margin: 130px 110px;
+    margin-right: 350px;
+    width: 380px;
+    height: 420px;
+}
