@@ -108,7 +108,6 @@ img {
 .customer-section{
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 150px;
     border-radius: 8px;
 background: rgba(39, 39, 39, 0.05);
@@ -119,13 +118,18 @@ height: 320px;
     display: flex;
     justify-content: center;
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 .customer-image{
     width: 88px;
 height: 88px;
 }
 .customer-desc{
-    margin-top: 10px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 2px;
 }
 .hot-deal{
     border-radius: 8px;
