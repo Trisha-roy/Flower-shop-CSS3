@@ -1,7 +1,9 @@
 .header {
     background: rgba(229, 84, 115, 0.10);
 }
-
+.nav{
+    
+}
 .banner-section {
     display: flex;
     justify-content: space-between;
@@ -44,6 +46,7 @@
     font-size: 20px;
     font-weight: 700;
 }
+
 .featured-title {
     color: #272727;
     text-align: center;
@@ -96,6 +99,7 @@ img {
     width: 464px;
     height: 538px;
 }
+
 .img-desc {
     margin-top: 2px;
     color: #272727;
@@ -105,162 +109,180 @@ img {
     line-height: 35px;
     text-decoration-line: underline;
 }
-.customer-section{
+
+.customer-section {
     display: flex;
     justify-content: center;
     margin-top: 150px;
     border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-width: 1440px;
-height: 320px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
 }
-.delivery-section{
+
+.delivery-section {
     display: flex;
     justify-content: center;
     margin-top: 150px;
     margin-bottom: 150px;
 }
-.customer-image{
+
+.customer-image {
     width: 88px;
-height: 88px;
+    height: 88px;
 }
-.customer-desc{
-    color: rgba(39, 39, 39, 0.80);
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 2px;
-}
-.hot-deal{
+
+.hot-deal {
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
+    background: rgba(229, 84, 115, 0.05);
 }
-.hot-deal-section{
+
+.hot-deal-section {
     display: flex;
     justify-content: space-between;
 }
-.deal-title{
+
+.deal-title {
     color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-weight: 800;
-text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
 }
-.deal-desc{
+
+.deal-desc {
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
 }
-.deal-section{
+
+.deal-section {
     text-align: center;
     justify-content: center;
     margin: 301px 395px;
 }
-.deal-image{
+
+.deal-image {
     margin: 130px 110px;
     margin-right: 350px;
     width: 380px;
     height: 420px;
 }
-.instagram{
+
+.instagram {
     margin: 0px;
     justify-content: center;
 }
-.instagram-section{
+
+.instagram-section {
     text-align: center;
     padding: 20px;
 }
-.instagram-section-title{
+
+.instagram-section-title {
     color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
-.insta-image-section{
+
+.insta-image-section {
     display: flex;
     justify-content: center;
 }
-.insta-image-section-1{
+
+.insta-image-section-1 {
     width: 342px;
-height: 396px;
+    height: 396px;
 }
-.latest-title{
+
+.latest-title {
     color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
-.latest-desc{
+
+.latest-desc {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
-.input-field{
+
+.input-field {
     text-align: center;
 }
-#input{
+
+#input {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     border-radius: 8px;
-background: #FFF;
-width: 700px;
-height: 64px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
 }
-.latest-deal{
+
+.latest-deal {
     background: url("../images/Flower/Rectangle\ 9.png");
     background-size: cover;
     width: 1440px;
-height: 449px;
-margin: auto;
-padding: 60px;
-box-shadow: 5px 10px 18px #888888 ;
+    height: 449px;
+    margin: auto;
+    padding: 60px;
+    box-shadow: 5px 10px 18px #888888;
 }
-.latest-deal-section{
+
+.latest-deal-section {
     justify-content: center;
     margin: auto;
     align-items: center;
 }
-#footer{
+
+#footer {
     background: #111010;
     width: 100%;
-height: 449px;
-display: flex;
-justify-content: center;
-margin-top: 180px;
+    height: 449px;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
 }
-#footer h1{
+
+#footer h1 {
     color: #E55473;
     text-align: center;
-font-family: Lato;
-font-size: 48px;
-font-weight: 800;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
 }
-#footer h3{
+
+#footer h3 {
     color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-#footer p{
+
+#footer p {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
-.footer-section{
+
+.footer-section {
     display: flex;
     justify-content: center;
     margin: auto;
-    
+
 }
