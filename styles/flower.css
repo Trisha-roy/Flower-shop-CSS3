@@ -2,7 +2,20 @@
     background: rgba(229, 84, 115, 0.10);
 }
 .nav{
-    
+    display: flex;
+    justify-content: space-between;
+}
+.nav-img{
+    size: 10px;
+}
+nav li{
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
 }
 .banner-section {
     display: flex;
